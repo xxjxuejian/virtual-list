@@ -1,0 +1,14 @@
+#有助于为不同的IDE编辑器上处理同一个项目的多个开发人员维护一致的编码风格
+root = true
+
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+end_of_line = lf
+trim_trailing_whitespace = true #去除行尾的任意空白字符
+insert_final_newline = true #始终在文件末尾插入一个新行
+
+[*.md]
+max_line_length = off
+trim_trailing_whitespace = false

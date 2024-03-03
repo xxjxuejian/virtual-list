@@ -1,0 +1,40 @@
+:root {
+  --primary-color: #ff9854;
+  --van-search-left-icon-color: var(--primary-color) !important;
+  --van-primary-color: var(--primary-color);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+}
+
+.top_page {
+  position: relative;
+  z-index: 9;
+  height: 100vh;
+  background-color: #fff;
+  overflow: auto;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.overflow1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.overflow2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
