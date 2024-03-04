@@ -1,6 +1,6 @@
 # virtual-list
 
-This template should help get you started developing with Vue 3 in Vite.
+一个关于虚拟列表的练习项目
 
 ## Recommended IDE Setup
 
